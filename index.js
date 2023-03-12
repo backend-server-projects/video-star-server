@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 });
 
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
-const uri = `mongodb+srv:/adminBlog:xODGiM5OrQAxzBbD@cluster0.tgkwl01.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://adminBlog:xODGiM5OrQAxzBbD@cluster0.tgkwl01.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
