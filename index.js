@@ -21,9 +21,7 @@ io.on("connection", (socket) => {
   });
 });
 
-app.use((req, res) => {
-	req.header("Access-Control-Allow-Origin", "*");
-});
+
 
 require("dotenv").config();
 
